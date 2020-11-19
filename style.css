@@ -1,0 +1,93 @@
+body{
+    font-family: 'Nunito';
+}
+
+.co{
+    display:flex;
+    justify-content: space-around;
+}
+.bgimage{
+    background-image: url("https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/front-page-story/hero-banner/robot-girl.jpg?auto=format%2Ccompress&dpr=1");
+    background-size:  100% ;
+    background-repeat: no-repeat;
+    padding: 100px;
+    background-color:#271066;;   
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.center{
+    text-align:center;
+}
+.row{
+    display: flex;
+    background-color:#d6edf6;;
+  }
+  .side{
+    flex:50%;
+    background-color: #d6edf6;;
+    padding: 20px;
+  }
+  .main{
+    flex: 50%;
+    background-color:#d6edf6;;
+    padding: 20px;
+  }
+  .row1{
+    display: flex;
+  }
+  .side1{
+    flex:50%;
+    padding: 20px;
+  }
+  .main1{
+    flex: 50%;
+    padding: 20px;
+  }
+  .testimonials{
+    display: flex;
+    justify-content: space-around;
+  }
+  .testimonials-1{
+    text-align: center;
+  }
+  .row2{
+    display: flex;
+    background-color: #fcf4cf;
+  }
+  .side2{
+    flex:50%;
+    padding: 20px;
+  }
+  .main2{
+    flex: 50%;
+    padding: 20px;
+  }
+  .part1{
+    display: flex;
+    justify-content: space-around;
+  }
+  .part2{
+    display: flex;
+    justify-content: space-around;
+  }
+  .part3{
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer{
+    background-color:#E8E8E8;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .btn{
+    transition-duration: 0.4s;
+  }
+  
+  .btn:hover {
+    background-color: #2a73cc; /* Green */
+    color: white;
+  }
+  
